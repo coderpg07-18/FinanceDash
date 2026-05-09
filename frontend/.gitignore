@@ -1,0 +1,7 @@
+.env
+node_modules/
+.DS_Store
+*.log
+vite.config.js
+index.html
+eslint.config.js
