@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 const wrapAsync = require("../utils/wrapAsync");
 const { isLoggedIn, validateCategory } = require("../middleware");
-const categoryController = require("../controllers/category");
+const categoryController = require("../controllers/Category.js");
 
 router.get("/", isLoggedIn, wrapAsync(categoryController.index));
 router.post("/", isLoggedIn, validateCategory, wrapAsync(categoryController.create));
