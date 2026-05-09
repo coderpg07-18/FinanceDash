@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const wrapAsync = require("../utils/wrapAsync");
 const { isLoggedIn } = require("../middleware");
-const c = require("../controllers/budget");
+const c = require("../controllers/Budget.js");
 
 router.get("/", isLoggedIn, wrapAsync(c.index));
 router.post("/", isLoggedIn, wrapAsync(c.create));
