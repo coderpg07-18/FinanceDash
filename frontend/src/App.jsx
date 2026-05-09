@@ -1,23 +1,23 @@
 //  App.jsx - React Router setup
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { AuthProvider } from "./context/AuthContext";
-import { ToastProvider } from "./context/ToastContext";
-import { ThemeProvider } from "./context/ThemeContext";
-import { ProtectedRoute, AdminRoute } from "./components/ProtectedRoute";
-import Navbar from "./components/Navbar";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import ForgotPassword from "./pages/ForgotPassword";
-import ResetPassword from "./pages/ResetPassword";
-import Dashboard from "./pages/Dashboard";
-import Transactions from "./pages/Transactions";
-import TransactionForm from "./pages/TransactionForm";
-import TransactionDetail from "./pages/TransactionDetail";
-import Budgets from "./pages/Budgets";
-import Reports from "./pages/Reports";
-import Profile from "./pages/Profile";
-import Admin from "./pages/Admin";
+import { AuthProvider } from "./context/AuthContext.jsx";
+import { ToastProvider } from "./context/ToastContext.jsx";
+import { ThemeProvider } from "./context/ThemeContext.jsx";
+import { ProtectedRoute, AdminRoute } from "./components/ProtectedRoute.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Login from "./pages/Login.jsx";
+import Signup from "./pages/Signup.jsx";
+import ForgotPassword from "./pages/ForgotPassword.jsx";
+import ResetPassword from "./pages/ResetPassword.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import Transactions from "./pages/Transactions.jsx";
+import TransactionForm from "./pages/TransactionForm.jsx";
+import TransactionDetail from "./pages/TransactionDetail.jsx";
+import Budgets from "./pages/Budgets.jsx";
+import Reports from "./pages/Reports.jsx";
+import Profile from "./pages/Profile.jsx";
+import Admin from "./pages/Admin.jsx";
 import "./styles/main.css";
 
 export default function App() {
