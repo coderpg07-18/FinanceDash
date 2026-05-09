@@ -172,7 +172,7 @@ financial-dashboard/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/financial-dashboard.git
+git clone https://github.com/coderpg07-18/FinanceDash.git
 cd financial-dashboard
 ```
 
@@ -249,7 +249,7 @@ Frontend runs at → `http://localhost:5173`
 
 ---
 
-### 4. Default Admin Credentials
+### 4. Set Default Admin Credentials
 
 ```
 Email:    admin@financialdash.com
