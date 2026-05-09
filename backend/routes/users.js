@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 const wrapAsync = require("../utils/wrapAsync");
 const { isLoggedIn, isAdmin } = require("../middleware");
-const userController = require("../controllers/user");
+const userController = require("../controllers/User.js");
 const { uploadAvatar } = require("../utils/cloudinaryConfig");
 
 // Auth routes (signup/login/logout)
