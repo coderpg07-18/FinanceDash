@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 const wrapAsync = require("../utils/wrapAsync");
 const { isLoggedIn, isOwner, validateTransaction } = require("../middleware");
-const transactionController = require("../controllers/transaction");
+const transactionController = require("../controllers/Transaction.js");
 
 // GET /api/transactions (index) 
 router.get("/", isLoggedIn, wrapAsync(transactionController.index));
