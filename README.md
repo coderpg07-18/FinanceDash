@@ -372,7 +372,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
 
-Made with ❤️ by **Prince Gupta**
+Made with ☕ & stubbornness by **Prince Gupta** — **Adapt. Execute. Dominate.***
 
 ⭐ Star this repo if you found it helpful!
 
